@@ -14,15 +14,13 @@ Senior Software Engineer
 
 ## @color[white](Grafana)
 
----
+---?color=black
 
-## Wizzy
+## @color[white](Wizzy)
 
 [github.com/utkarshcmu/wizzy](github.com/utkarshcmu/wizzy)
 
 ![Wizzy Logo](images/wizzy-logo.png)
-
-![Grafana Logo](images/grafana-logo.jpg)
 
 ---
 
