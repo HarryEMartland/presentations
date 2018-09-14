@@ -16,11 +16,10 @@ Senior Software Engineer
 
 ---?color=black
 
-## @color[white](Wizzy)
+![Wizzy Logo](images/wizzy-logo.png)
 
 [github.com/utkarshcmu/wizzy](github.com/utkarshcmu/wizzy)
 
-![Wizzy Logo](images/wizzy-logo.png)
 
 ---
 
