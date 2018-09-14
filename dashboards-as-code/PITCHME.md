@@ -43,10 +43,8 @@ wizzy set grafana password superSecret
       "envs": {
         "dev": {
           "url": "https://cluster-grafana.europe-west2.dev.bookinggo.cloud",
-          "username": "admin",
-          "password": "unsecure"
-        },
-        ...
+          "username": "admin", "password": "unsecure"
+        }, ...
       }
     },
     "context": {
@@ -60,8 +58,8 @@ wizzy set grafana password superSecret
 
 ### Useful Commands
 ```bash
-wizzy import dashboard <dashboard name> #download the dashboards locally
-wizzy export dashboard <dashboard name> #uplodad the local dashboard
+wizzy import dashboard <dashboard name>
+wizzy export dashboard <dashboard name>
 ```
 ---
 
