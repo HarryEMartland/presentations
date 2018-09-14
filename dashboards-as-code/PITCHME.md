@@ -12,8 +12,9 @@ Senior Software Engineer
 
 ---?image=images/grafana-json.png
 
-## Grafana
+## @color[white](Grafana)
 
+---
 
 ## Wizzy
 
