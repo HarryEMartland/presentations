@@ -20,9 +20,9 @@ Senior Software Engineer
 
 [github.com/utkarshcmu/wizzy](github.com/utkarshcmu/wizzy)
 
-![Wizzy Logo](../images/wizzy-logo.png)
+![Wizzy Logo](images/wizzy-logo.png)
 
-![Grafana Logo](../images/grafana-logo.jpg)
+![Grafana Logo](images/grafana-logo.jpg)
 
 ---
 
