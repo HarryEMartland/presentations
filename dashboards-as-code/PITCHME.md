@@ -54,12 +54,12 @@ providers:
 [http://docs.grafana.org/administration/provisioning/](http://docs.grafana.org/administration/provisioning/)
 
 Note:
- - Grafana can auto load dashboards from folder
- - Below are my opinions
- - Dashboards need to be stored/available in folder
- - Not scalable to store dashboards with Grafana deployment
- - May rely on permissions to deployment repo
- - Takes ownership away from team
+- Grafana can auto load dashboards from folder
+- **Below are my opinions**
+- Dashboards need to be stored/available in folder
+- Not scalable to store dashboards with Grafana deployment
+- May rely on permissions to deployment repo
+- Takes ownership away from team
 
 ## Configure Wizzy
 
