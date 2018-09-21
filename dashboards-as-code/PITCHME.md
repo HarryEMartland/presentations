@@ -54,7 +54,12 @@ providers:
 [http://docs.grafana.org/administration/provisioning/](http://docs.grafana.org/administration/provisioning/)
 
 Note:
-
+ - Grafana can auto load dashboards from folder
+ - **Below are my opinions**
+ - Dashboards need to be stored/available in folder
+ - Not scalable to store dashboards with Grafana deployment
+ - May rely on permissions to deployment repo
+ - Takes ownership away from team
 
 ## Configure Wizzy
 
@@ -69,7 +74,6 @@ wizzy set context grafana dev
 
 Note:
 - First need to init which creates a config file more on that next
-- Setting config saves in config file which can be committed in or stored on CI server as a secret
 - Has the notion of contexts or environments for config
 
 ---
@@ -94,6 +98,10 @@ Note:
 }
 ```
 
+Note:
+ - Setting config saves in config file which can be committed in or stored on CI server as a secret
+ - the context is stored here but can be set on CI using the context command
+
 ---
 
 ### Useful Commands
@@ -103,7 +111,8 @@ wizzy export dashboard <dashboard name>
 ```
 
 Note:
-
+ - import is useful to create dashboards in the dev env then import them locally and storing in vcs
+ - export is used to upload to Grafana in the CI pipeline
 ---
 
 ## Pipeline
@@ -132,3 +141,11 @@ cloud_deploy:
         - 'npm run wizzy export dashboard services'
         working_directory: 'grafana-service-dashboard'
 ```
+
+Note:
+ - show the export command
+ - show the setting of url
+ - you could use contexts to store the config and set the context here
+ - CI server could store config file with secrets in
+ - installing npm to download wizzy
+ - can use a GoCD alias to deploy to different env's
