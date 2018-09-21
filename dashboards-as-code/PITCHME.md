@@ -28,7 +28,7 @@ Note:
 
 [github.com/utkarshcmu/wizzy](github.com/utkarshcmu/wizzy)
 
-Notes:
+Note:
 - Wizzy is a command line tool to manage Grafana 'entities'
 - Entities are things like dashboards, datasources
 - Download through npm
@@ -53,7 +53,7 @@ providers:
 ```
 [http://docs.grafana.org/administration/provisioning/](http://docs.grafana.org/administration/provisioning/)
 
-Notes:
+Note:
 
 
 ## Configure Wizzy
@@ -67,7 +67,7 @@ wizzy set context grafana dev
 
 ```
 
-Notes:
+Note:
 - First need to init which creates a config file more on that next
 - Setting config saves in config file which can be committed in or stored on CI server as a secret
 - Has the notion of contexts or environments for config
