@@ -22,17 +22,10 @@ Note:
 
 ## @color[white](Grafana)
 
----?color=black
-
-![Wizzy Logo](images/wizzy-logo.png)
-
-[github.com/utkarshcmu/wizzy](github.com/utkarshcmu/wizzy)
-
 Note:
-- Wizzy is a command line tool to manage Grafana 'entities'
-- Entities are things like dashboards, datasources
-- Download through npm
-
+- Have to be logged in
+- Can create dashboards using ui or code
+- Can copy and paste dashboard 'code'
 
 ---
 
@@ -56,10 +49,27 @@ providers:
 Note:
 - Grafana can auto load dashboards from folder
 - **Below are my opinions**
+- Great if you only have a couple of dashboards
 - Dashboards need to be stored/available in folder
 - Not scalable to store dashboards with Grafana deployment
 - May rely on permissions to deployment repo
 - Takes ownership away from team
+
+---?color=black
+
+![Wizzy Logo](images/wizzy-logo.png)
+
+[github.com/utkarshcmu/wizzy](github.com/utkarshcmu/wizzy)
+
+```bash
+npm install wizzy
+yarn add wizzy
+```
+
+Note:
+- Wizzy is a command line tool to manage Grafana 'entities'
+- Entities are things like dashboards, datasources
+- Download through npm
 
 ---
 
@@ -101,8 +111,8 @@ Note:
 ```
 
 Note:
- - Setting config saves in config file which can be committed in or stored on CI server as a secret
- - the context is stored here but can be set on CI using the context command
+- Setting config saves in config file which can be committed in or stored on CI server as a secret
+- the context is stored here but can be set on CI using the context command
 
 ---
 
@@ -113,8 +123,8 @@ wizzy export dashboard <dashboard name>
 ```
 
 Note:
- - import is useful to create dashboards in the dev env then import them locally and storing in vcs
- - export is used to upload to Grafana in the CI pipeline
+- import is useful to create dashboards in the dev env then import them locally and storing in vcs
+- export is used to upload to Grafana in the CI pipeline
 ---
 
 ## Pipeline
@@ -145,9 +155,9 @@ cloud_deploy:
 ```
 
 Note:
- - show the export command
- - show the setting of url
- - you could use contexts to store the config and set the context here
- - CI server could store config file with secrets in
- - installing npm to download wizzy
- - can use a GoCD alias to deploy to different env's
+- show the export command
+- show the setting of url
+- you could use contexts to store the config and set the context here
+- CI server could store config file with secrets in
+- installing npm to download wizzy
+- can use a GoCD alias to deploy to different env's
