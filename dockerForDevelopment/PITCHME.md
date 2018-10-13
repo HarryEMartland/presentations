@@ -118,9 +118,9 @@ docker build -t myImage:1.2 .
 
 ### In Production
 
-@snap[west]
+@snap[west fragment]
 ![Kubernetes Logo](images/kubernetes-logo.png)
 @snapend
-@snap[east]
+@snap[east fragment]
 ![Docker Logo](images/docker-logo.png)
 @snapend
