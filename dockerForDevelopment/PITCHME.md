@@ -27,7 +27,7 @@
 <https://docs.docker.com/docker-for-mac/install/>
 
 ---
-### Definitions
+@title[Definitions]
 
 @snap[west]
 Image - A set of files/Layer which can be run in docker
