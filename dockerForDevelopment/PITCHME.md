@@ -118,5 +118,5 @@ docker build -t myImage:1.2 .
 
 ### In Production
 
-![Kubernetes Logo](images/kubernetes-logo.png)
+![Kubernetes Logo](images/kubernetes-logo.png&size=50%)
 ![Docker Logo](images/docker-logo.png)
