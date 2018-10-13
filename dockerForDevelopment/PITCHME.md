@@ -29,7 +29,8 @@
 --- 
 
 @snap[north]
-# Definitions
+
+Definitions
 @snapend
 
 @snap[west]
