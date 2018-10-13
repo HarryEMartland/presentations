@@ -40,13 +40,13 @@ Images are often created by combining and modifying standard images downloaded f
 @snapend
 
 @snap[west]
-**Image** - A set of files/Layer which can be run in docker
-**Container** - A running Image
-**Docker File** - The definition to create an image
-**Compose File** - The definition of a set of Images and configuration
-**Base Image** - An image which the Dockerfile uses as a starting point
-**Alpine** - An extremely small base image
-**Layer** - A set of changes to files
+**Image** - A set of files/Layer which can be run in docker 
+**Container** - A running Image 
+**Docker File** - The definition to create an image 
+**Compose File** - The definition of a set of Images and configuration 
+**Base Image** - An image which the Dockerfile uses as a starting point 
+**Alpine** - An extremely small base image 
+**Layer** - A set of changes to files 
 @snapend
 ---
 
