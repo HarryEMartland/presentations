@@ -58,16 +58,17 @@ Images are often created by combining and modifying standard images downloaded f
 
 ---
 
-### Dockerfile/Compose
+### Dockerfile
 
-@snap[west]
 ```
 FROM httpd:2.4
 COPY ./public-html/ /usr/local/apache2/htdocs/
 ```
-@snapend
 
-@snap[east]
+---
+
+### Compose
+
 ```yaml
 version: '3'
 services:
@@ -82,7 +83,6 @@ services:
   redis:
     image: "redis:alpine"
 ```
-@snapend
 
 ---
 
