@@ -9,16 +9,22 @@
   
 ---
 
-### What is Docker
->Docker is a computer program that performs operating-system-level virtualization, also known as "containerization". 
->It was first released in 2013 and is developed by Docker, Inc.
+@snap[north]
 
->Docker is used to run software packages called "containers". 
->Containers are isolated from each other and bundle their own tools, libraries and configuration files; 
->they can communicate with each other through well-defined channels. 
->All containers are run by a single operating system kernel and are thus more lightweight than virtual machines. 
->Containers are created from "images" that specify their precise contents. 
->Images are often created by combining and modifying standard images downloaded from public repositories.
+<h4>What is Docker?</h4>
+@snapend
+
+@snap[west]
+Docker is a computer program that performs operating-system-level virtualization, also known as "containerization". 
+It was first released in 2013 and is developed by Docker, Inc.
+
+Docker is used to run software packages called "containers". 
+Containers are isolated from each other and bundle their own tools, libraries and configuration files; 
+they can communicate with each other through well-defined channels. 
+All containers are run by a single operating system kernel and are thus more lightweight than virtual machines. 
+Containers are created from "images" that specify their precise contents. 
+Images are often created by combining and modifying standard images downloaded from public repositories.
+@snapend
 ---
 
 ### Setup
@@ -30,17 +36,17 @@
 
 @snap[north]
 
-Definitions
+<h4>Definitions</h4>
 @snapend
 
 @snap[west]
-Image - A set of files/Layer which can be run in docker
-Container - A running Image
-Docker File - The definition to create an image
-Compose File - The definition of a set of Images and configuration
-Base Image - An image which the Dockerfile uses as a starting point
-Alpine - An extremely small base image
-Layer - A set of changes to files
+**Image** - A set of files/Layer which can be run in docker
+**Container** - A running Image
+**Docker File** - The definition to create an image
+**Compose File** - The definition of a set of Images and configuration
+**Base Image** - An image which the Dockerfile uses as a starting point
+**Alpine** - An extremely small base image
+**Layer** - A set of changes to files
 @snapend
 ---
 
