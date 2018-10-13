@@ -26,7 +26,11 @@
 <https://docs.docker.com/docker-for-windows/install/>
 <https://docs.docker.com/docker-for-mac/install/>
 
---- @title[Definitions]
+--- 
+
+@snap[north]
+# Definitions
+@snapend
 
 @snap[west]
 Image - A set of files/Layer which can be run in docker
