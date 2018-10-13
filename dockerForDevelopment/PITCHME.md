@@ -96,14 +96,19 @@ docker build -t myImage:1.2 .
 ```
 ---
 
-### Accelerate!
+@snap[north]
 
+<h4>Accelerate!</h4>
+@snapend
+
+@snap[west]
  - No need to install
  - Trash any mistakes
  - Versions management
  - Development as code
  - Good to have on your CV
  - Multiple instances
+@snapend
 
 ---
 
