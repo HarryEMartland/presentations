@@ -106,7 +106,7 @@ docker build -t myImage:1.2 .
 
 ---
 @snap[north]
-### In Production
+<h2>In Production</h2>
 @snapend
 
 @snap[west]
