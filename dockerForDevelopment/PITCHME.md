@@ -20,7 +20,7 @@ All containers are run by a single operating system kernel and are thus more lig
 ---
 
 Note:
- - Extract from wikipedia
+- Extract from wikipedia
 
 ### Setup
 
@@ -28,9 +28,9 @@ Note:
 <https://docs.docker.com/docker-for-mac/install/>
 
 Note:
- - You can just google docker for your device and these links will show up
- - Runs a virtual machine as mac and windows don't support native containers (linux does)
- - Can help with this later if you like what you see
+- You can just google docker for your device and these links will show up
+- Runs a virtual machine as mac and windows don't support native containers (linux does)
+- Can help with this later if you like what you see
 
 --- 
 
@@ -55,9 +55,9 @@ Note:
 ![docker-run-httpd](images/docker-run-httpd.gif)
 
 Note:
- - Downloads the image from Docker Hub if not available
- - Hashes are different layers which can be reused by different images
- - Will go into more details on the command later
+- Downloads the image from Docker Hub if not available
+- Hashes are different layers which can be reused by different images
+- Will go into more details on the command later
 
 ---
 
@@ -93,11 +93,11 @@ services:
 ```
 
 Note:
- - Multiple containers (web, mysql, redis)
- - image is the image used for the containers
- - ports forwarded
- - build builds a Dockerfile at in the current directory .
- - file format is .yaml
+- Multiple containers (web, mysql, redis)
+- image is the image used for the containers
+- ports forwarded
+- build builds a Dockerfile at in the current directory .
+- file format is .yaml
 
 ---
 
@@ -112,13 +112,13 @@ docker compose down
 docker build -t myImage:1.2 .
 
 Note:
- - -a lists ended containerrs
- - -p forwards ports so the are accesable on the host
- - --rm removes the container after it has ended
- - tags of images (often a version)
- - -d runs in daemon mode (background)
- - -t names and tags the image
- - build needs a directory hense .
+- -a lists ended containerrs
+- -p forwards ports so the are accesable on the host
+- --rm removes the container after it has ended
+- tags of images (often a version)
+- -d runs in daemon mode (background)
+- -t names and tags the image
+- build needs a directory hense .
 
 ```
 ---
@@ -152,25 +152,25 @@ Note:
 @snapend
 
 Note:
- - Docker swam connects multiple computers running docker as a cluster
+- Docker swam connects multiple computers running docker as a cluster
     - Deploying a container will put it on one of the nodes in the cluster
     - Allows nodes to die or be moved
     - Multiple instances
     - Provides load balancing 
- - K8s everything docker swam can do plus more
+- K8s everything docker swam can do plus more
     - Support in AWS and GCP (free masters)
     - Auto scaling
 ---
 
 ### Next Steps
 
- - Play with docker <https://labs.play-with-docker.com/>
- - Install Docker
- - Use it to play with some cool tech
+- Play with docker <https://labs.play-with-docker.com/>
+- Install Docker
+- Use it to play with some cool tech
  
 Note:
- - examples of cool tech
-   - Mysql (other database)
-   - Redis (other noSQL dbs)
-   - Bamboo (other web applications)
+- examples of cool tech
+    - Mysql (other database)
+    - Redis (other noSQL dbs)
+    - Bamboo (other web applications)
    
