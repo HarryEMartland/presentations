@@ -9,12 +9,8 @@
   
 ---
 
-@snap[north]
-
 <h4>What is Docker?</h4>
-@snapend
 
-@snap[west]
 Docker is a computer program that performs operating-system-level virtualization, also known as "containerization". 
 It was first released in 2013 and is developed by Docker, Inc.
 
@@ -24,7 +20,6 @@ they can communicate with each other through well-defined channels.
 All containers are run by a single operating system kernel and are thus more lightweight than virtual machines. 
 Containers are created from "images" that specify their precise contents. 
 Images are often created by combining and modifying standard images downloaded from public repositories.
-@snapend
 ---
 
 ### Setup
