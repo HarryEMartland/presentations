@@ -110,6 +110,7 @@ docker run -p80:80 -d httpd:alpine
 docker compose up -d
 docker compose down
 docker build -t myImage:1.2 .
+```
 
 Note:
 - -a lists ended containerrs
@@ -120,7 +121,6 @@ Note:
 - -t names and tags the image
 - build needs a directory hense .
 
-```
 ---
 
 @snap[north]
