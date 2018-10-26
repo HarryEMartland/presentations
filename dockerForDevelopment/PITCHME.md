@@ -17,10 +17,10 @@ It was first released in 2013 and is developed by Docker, Inc.
 Docker is used to run software packages called "containers". 
 Containers are isolated from each other and bundle their own tools, libraries and configuration files.
 All containers are run by a single operating system kernel and are thus more lightweight than virtual machines. 
----
 
 Note:
 - Extract from wikipedia
+---
 
 ### Setup
 
