@@ -173,4 +173,10 @@ Note:
     - Mysql (other database)
     - Redis (other noSQL dbs)
     - Bamboo (other web applications)
-   
+
+
+---
+
+### Feedback
+<http://bit.ly/accelerate-learning-feedback>
+![Feedback QR Code](images/docker-feedback-qr.png)
