@@ -178,5 +178,5 @@ Note:
 ---
 
 ### Feedback
-<http://bit.ly/accelerate-learning-feedback>
+[bit.ly/accelerate-learning-feedback](https://bit.ly/accelerate-learning-feedback)
 ![Feedback QR Code](images/docker-feedback-qr.png)
