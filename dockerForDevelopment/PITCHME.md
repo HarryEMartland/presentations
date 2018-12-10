@@ -7,6 +7,13 @@
   **@color[darkblue](Booking)@color[deepskyblue](Go)**
   @snapend
   
+Note: 
+- Have you spent ages setting up new technology (mysql, redis, wordpress, mongo)
+- Just to find out set it up wrong
+- Come back a week later or new pc and cannot remember it 
+- Afterwards clogging up disk, cpu, memory
+- share with someone else
+  
 ---
 
 <h4>What is Docker?</h4>
