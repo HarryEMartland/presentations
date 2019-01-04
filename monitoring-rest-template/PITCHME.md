@@ -22,8 +22,9 @@ Note:
 - convention over configuration (often forgotten)
 
 ---
-
-## How Not to Use RestTemplate
+@snap[north]
+#### How Not to Use RestTemplate
+@snapend
 
 ```java
 return new RestTemplate().getForObject(
@@ -37,8 +38,9 @@ Note:
 - concatenating query parameters
 
 ---
-
-## Autowiring RestTemplateBuilder
+@snap[north]
+#### Autowiring RestTemplateBuilder
+@snapend
 
 ```java
 @Bean
