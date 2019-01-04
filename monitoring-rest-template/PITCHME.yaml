@@ -1,3 +1,2 @@
-theme-override : ./PITCHME.css
 layout : top
 transition : none
