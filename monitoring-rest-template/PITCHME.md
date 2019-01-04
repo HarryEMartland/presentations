@@ -28,11 +28,13 @@ Note:
 ---
 #### How Not to Use RestTemplate
 
+@snap[midpoint]
 ```java
 return new RestTemplate().getForObject(
         baseUrl + "/postcodes/" + postcode, 
         PostCodeResponse.class);
 ```
+@snapend
 
 Note:
 - creating a new one
