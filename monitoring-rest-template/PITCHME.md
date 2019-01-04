@@ -1,5 +1,5 @@
 
-@snap[center]
+@snap[midpoint]
 ## Monitoring Rest Template
 #### Using Spring 'properly'
 @snapend
