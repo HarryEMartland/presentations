@@ -50,7 +50,7 @@ Note:
 - don't need to test base URL in repository
 - Use Wire mock!
 
---
+---
 
 ## Prometheus Metrics
 
