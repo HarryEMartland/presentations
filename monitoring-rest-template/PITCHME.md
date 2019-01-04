@@ -28,11 +28,13 @@ Note:
 ---
 #### How Not to Use RestTemplate
 
+@snap[midpoint]
 ```java
 return new RestTemplate().getForObject(
         baseUrl + "/postcodes/" + postcode, 
         PostCodeResponse.class);
 ```
+@snapend
 
 Note:
 - creating a new one
@@ -42,6 +44,7 @@ Note:
 ---
 #### Autowiring RestTemplateBuilder
 
+@snap[midpoint]
 ```java
 return restTemplateBuilder
     .rootUri(p.getUrl())
@@ -54,6 +57,7 @@ return restTemplate.getForObject(
     PostCodeResponse.class, 
     postcode);
 ```
+@snapend
 
 Note:
 - not full code. Create a bean and return a request examples
@@ -68,6 +72,7 @@ Note:
 
 ## Testing
 
+@snap[midpoint]
 ```java
 @Test
 public void shouldMakeRequest() {
@@ -79,6 +84,7 @@ public void shouldMakeRequest() {
     assertEquals(mockResponse, result);
 }
 ```
+@snapend
 
 Note:
 - don't need to test base URL in repository
