@@ -26,9 +26,7 @@ Note:
 - convention over configuration (often forgotten)
 
 ---
-#### How Not to Use RestTemplate
-
-@snap[midpoint]
+@title[How Not to Use RestTemplate]
 
 ```java
 return new RestTemplate().getForObject(
@@ -36,7 +34,6 @@ return new RestTemplate().getForObject(
         PostCodeResponse.class);
 ```
 
-@snapend
 
 Note:
 - creating a new one
