@@ -66,7 +66,21 @@ Note:
 
 ---
 
+@snap[north]
 ## Testing
+@snapend
+
+```java
+@Test
+public void shouldMakeRequest() {
+    when(restTemplate.getForObject("/postcodes/{postcode}", PostCodeResponse.class, "AT3ST"))
+        .thenReturn(mockResponse);
+    
+    PostCodeResponse result = postCodeController.getPostCode("AT3ST");
+    verify(restTemplate).getForObject("/postcodes/{postcode}", PostCodeResponse.class, "AT3ST");
+    assertEquals(mockResponse, result);
+}
+```
 
 Note:
 - don't need to test base URL in repository
