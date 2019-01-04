@@ -1,5 +1,9 @@
+
+@snap[center]
 ## Monitoring Rest Template
 #### Using Spring 'properly'
+@snapend
+
   
   @snap[south-east]
   Harry Martland  
@@ -22,9 +26,7 @@ Note:
 - convention over configuration (often forgotten)
 
 ---
-@snap[north]
 #### How Not to Use RestTemplate
-@snapend
 
 ```java
 return new RestTemplate().getForObject(
@@ -38,9 +40,7 @@ Note:
 - concatenating query parameters
 
 ---
-@snap[north]
 #### Autowiring RestTemplateBuilder
-@snapend
 
 ```java
 return restTemplateBuilder
@@ -66,9 +66,7 @@ Note:
 
 ---
 
-@snap[north]
 ## Testing
-@snapend
 
 ```java
 @Test
