@@ -43,20 +43,20 @@ Note:
 @snapend
 
 ```java
-@Bean
-public RestTemplate postcodeRestTemplate(RestTemplateBuilder restTemplateBuilder) {
-    ApiProperties.ApiProperty properties = apiProperties.getPostcode();
-    return restTemplateBuilder
-            .rootUri(properties.getUrl())
-            .setConnectTimeout(properties.getConnectTimeout())
-            .setReadTimeout(properties.getReadTimeout())
-            .build();
-}
-
-return restTemplate.getForObject("/postcodes/{postcode}", PostCodeResponse.class, postcode);
+return restTemplateBuilder
+    .rootUri(p.getUrl())
+    .setConnectTimeout(p.getConnectTimeout())
+    .setReadTimeout(p.getReadTimeout())
+    .build();
+    
+return restTemplate.getForObject(
+    "/postcodes/{postcode}", 
+    PostCodeResponse.class, 
+    postcode);
 ```
 
 Note:
+- not full code. Create a bean and return a request examples
 - each method returns a new builder so no cross contamination
 - use path variables
 - Set timeouts
