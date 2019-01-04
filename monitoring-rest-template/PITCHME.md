@@ -23,7 +23,13 @@ Note:
 
 ---
 
-## How not to use RestTemplate
+## How Not to Use RestTemplate
+
+```java
+return new RestTemplate().getForObject(
+        baseUrl + "/postcodes/" + postcode, 
+        PostCodeResponse.class);
+```
 
 Note:
 - creating a new one
@@ -34,13 +40,27 @@ Note:
 
 ## Autowiring RestTemplateBuilder
 
+```java
+@Bean
+public RestTemplate postcodeRestTemplate(RestTemplateBuilder restTemplateBuilder) {
+    ApiProperties.ApiProperty properties = apiProperties.getPostcode();
+    return restTemplateBuilder
+            .rootUri(properties.getUrl())
+            .setConnectTimeout(properties.getConnectTimeout())
+            .setReadTimeout(properties.getReadTimeout())
+            .build();
+}
+
+return restTemplate.getForObject("/postcodes/{postcode}", PostCodeResponse.class, postcode);
+```
+
 Note:
-- spring can add listeners for instrumentation
 - each method returns a new builder so no cross contamination
 - use path variables
-- use a separate RestTemplate for each API
 - Set timeouts
 - Use a connection pool (just include Apache http)
+- use a separate RestTemplate for each API
+- spring can add listeners for instrumentation
 
 ---
 
