@@ -70,17 +70,14 @@ Note:
 ## Testing
 
 ```java
-@Test
-public void shouldMakeRequest() {
-        String url = "/postcodes/{postcode}";
-        String postcode = "AT3ST";
-        when(restTemplate.getForObject(url, PostCodeResponse.class, postcode))
-                .thenReturn(mockResponse);
+String url = "/postcodes/{postcode}";
+String postcode = "AT3ST";
+when(restTemplate.getForObject(url, PostCodeResponse.class, postcode))
+        .thenReturn(mockResponse);
 
-        PostCodeResponse result = postCodeController.getPostCode(postcode);
-        verify(restTemplate).getForObject(url, PostCodeResponse.class, postcode);
-        assertEquals(mockResponse, result);
-}
+PostCodeResponse result = postCodeController.getPostCode(postcode);
+verify(restTemplate).getForObject(url, PostCodeResponse.class, postcode);
+assertEquals(mockResponse, result);
 ```
 
 Note:
