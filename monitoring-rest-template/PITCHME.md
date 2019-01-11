@@ -72,12 +72,14 @@ Note:
 ```java
 @Test
 public void shouldMakeRequest() {
-    when(restTemplate.getForObject("/postcodes/{postcode}", PostCodeResponse.class, "AT3ST"))
-        .thenReturn(mockResponse);
-    
-    PostCodeResponse result = postCodeController.getPostCode("AT3ST");
-    verify(restTemplate).getForObject("/postcodes/{postcode}", PostCodeResponse.class, "AT3ST");
-    assertEquals(mockResponse, result);
+        String url = "/postcodes/{postcode}";
+        String postcode = "AT3ST";
+        when(restTemplate.getForObject(url, PostCodeResponse.class, postcode))
+                .thenReturn(mockResponse);
+
+        PostCodeResponse result = postCodeController.getPostCode(postcode);
+        verify(restTemplate).getForObject(url, PostCodeResponse.class, postcode);
+        assertEquals(mockResponse, result);
 }
 ```
 
