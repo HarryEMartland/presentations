@@ -26,7 +26,7 @@ Note:
 - convention over configuration (often forgotten)
 
 ---
-## How Not to Use RestTemplate
+#### How Not to Use RestTemplate
 
 ```java
 return new RestTemplate().getForObject(
