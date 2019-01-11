@@ -72,14 +72,17 @@ Note:
 ```java
 String url = "/postcodes/{postcode}";
 String postcode = "AT3ST";
-when(restTemplate.getForObject(url, PostCodeResponse.class, postcode))
+RestTemplate rt = mock(RestTemplate.class);
+Class<PostCodeResponse> postcodeClass = PostCodeResponse.class;
+
+when(rt.getForObject(url, postcodeClass, postcode))
         .thenReturn(mockResponse);
 
-PostCodeResponse result = postCodeController.getPostCode(postcode);
-verify(restTemplate).getForObject(url, PostCodeResponse.class, postcode);
+PostCodeResponse result = controller.getPostCode(postcode);
+verify(rt).getForObject(url, postcodeClass, postcode);
 assertEquals(mockResponse, result);
 ```
-
+                                                              |
 Note:
 - don't need to test base URL in repository
 - Use Wire mock!
