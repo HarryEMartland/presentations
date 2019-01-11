@@ -1,7 +1,7 @@
 
 @snap[midpoint]
 ## Monitoring Rest Template
-#### Using Spring 'properly'
+##### Using Spring 'properly'
 @snapend
 
   
