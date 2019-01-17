@@ -16,6 +16,9 @@
 @snap[west]
 ![Kubernetes Logo](images/spring-boot-logo.png)
 @snapend
+@snap[midpoint]
+![Kubernetes Logo](images/opentracing-logo.png)
+@snapend
 @snap[east]
 ![Docker Logo](images/prometheus-logo.png)
 @snapend
