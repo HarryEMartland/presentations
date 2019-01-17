@@ -27,6 +27,10 @@ compile 'io.micrometer:micrometer-registry-prometheus'
 compile 'org.springframework.cloud:spring-cloud-starter-zipkin'
 ```
 
+Note:
+- some config needed to get prometheus exposed 
+- need to enable scraping of prometheus and tracing sidecar in bgcloud config
+
 ---
 #### How Not to Use RestTemplate
 
