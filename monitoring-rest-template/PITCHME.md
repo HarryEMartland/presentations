@@ -118,9 +118,9 @@ Note:
 - if you don't you won't get metrics or there will be a metric for each query argument
 - request count, total time (can calculate average), max time, error statistics
 
----
+---?image=images/jaeger-screenshot.png&size=contain
 
-## Open Tracing?image=images/jaeger-screenshot.png&size=contain
+## Open Tracing
 
 
 Note:
