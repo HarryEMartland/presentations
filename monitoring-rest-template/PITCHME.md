@@ -11,17 +11,7 @@
   **@color[darkblue](Booking)@color[deepskyblue](Go)**
   @snapend
 
----
-
-@snap[west]
-![Kubernetes Logo](images/spring-boot-logo.png)
-@snapend
-@snap[midpoint]
-![Kubernetes Logo](images/opentracing-logo.png)
-@snapend
-@snap[east]
-![Docker Logo](images/prometheus-logo.png)
-@snapend
+---?image=images/ot-sp-p-logos.png
 
 Note:
 - writing as little as possible so it is easy for teams
