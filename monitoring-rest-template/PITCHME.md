@@ -75,7 +75,7 @@ PostCodeResponse result = controller.getPostCode(postcode);
 verify(rt).getForObject(url, postcodeClass, postcode);
 assertEquals(mockResponse, result);
 ```
-                                                              |
+
 Note:
 - don't need to test base URL in repository
 - Use Wire mock!
