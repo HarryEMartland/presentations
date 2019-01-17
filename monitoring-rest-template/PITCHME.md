@@ -19,6 +19,15 @@ Note:
 - convention over configuration (often forgotten)
 
 ---
+
+#### How to?
+
+```groovy
+compile 'io.micrometer:micrometer-registry-prometheus'
+compile 'org.springframework.cloud:spring-cloud-starter-zipkin'
+```
+
+---
 #### How Not to Use RestTemplate
 
 ```java
