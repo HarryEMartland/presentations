@@ -11,7 +11,7 @@
   **@color[darkblue](Booking)@color[deepskyblue](Go)**
   @snapend
 
----?image=images/ot-sp-p-logos.png
+---?image=images/ot-sp-p-logos.png&size=contain
 
 Note:
 - writing as little as possible so it is easy for teams
