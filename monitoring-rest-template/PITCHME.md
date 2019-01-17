@@ -120,11 +120,14 @@ Note:
 
 ---
 
-## Open Tracing
+## Open Tracing?image=images/jaeger-screenshot.png&size=contain
+
 
 Note:
 - include dependence
 - as long as you use the advice above everything should work smoothly
+- with spring defaults to 10% traffic
+- can set header to force sampling
 
 ---
 
