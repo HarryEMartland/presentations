@@ -102,6 +102,6 @@ Note:
 - with spring defaults to 10% traffic
 - can set header to force sampling
 
----
+---?image=images/monitoring/connection-pool.png&size=contain
 
 ## Monitoring Connection Pools
