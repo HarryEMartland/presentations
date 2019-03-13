@@ -55,6 +55,9 @@ return restTemplateBuilder
     .setReadTimeout(p.getReadTimeout())
     .build();
     
+```
+
+```java
 return restTemplate.getForObject(
     "/postcodes/{postcode}", 
     PostCodeResponse.class, 
