@@ -112,3 +112,13 @@ Note:
 - default connection pool stats are only for overall
 - bit of a hack creating routes to get the stats per route
 - you could have a shared connection pool
+
+---
+
+## Links
+
+@snap[center]
+Example App <http://bit.ly/rest-template-example>
+Slides <http://bit.ly/monitoring-rest-template-slides>
+Feedback <http://bit.ly/monitoring-rest-template-feedback>
+@snapend
