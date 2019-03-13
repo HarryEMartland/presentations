@@ -66,12 +66,13 @@ return restTemplate.getForObject(
 
 Note:
 - not full code. Create a bean and return a request examples
-- each method returns a new builder so no cross contamination
-- use path variables
-- Set timeouts
-- Use a connection pool (just include Apache http)
-- use a separate RestTemplate for each API
-- spring can add listeners for instrumentation
+- each method returns a new builder so no cross contamination, configure globally then override
+- use path variables so metrics work
+- use a separate RestTemplate for each API so you can make use of root url
+- default no connect and read timeouts 
+- will automatically use apache http client if on classpath will give you connection pooling default no pools
+ - default to max two connections per route and 20 in total
+- careful about creating your own as you will loose autowired functionality use RestTemplateCustomizer instead
 
 ---?image=images/monitoring/test-rest-template.png&size=contain
 
@@ -101,7 +102,13 @@ Note:
 - as long as you use the advice above everything should work smoothly
 - with spring defaults to 10% traffic
 - can set header to force sampling
+- next slide gets messy
 
 ---?image=images/monitoring/connection-pool.png&size=contain
 
 ## Monitoring Connection Pools
+
+Note:
+- default connection pool stats are only for overall
+- bit of a hack creating routes to get the stats per route
+- you could have a shared connection pool
