@@ -93,25 +93,10 @@ Note:
 - don't need to test base URL in repository
 - Use Wire mock!
 
----
+---?image=images/monitoring/rest-template-prometheus.png&size=contain
 
 ## Prometheus Metrics
 
-```
-# HELP http_client_requests_seconds Timer of RestTemplate operation
-# TYPE http_client_requests_seconds summary
-http_client_requests_seconds_count{clientName="api.postcodes.io",method="GET",status="200",uri="/postcodes/{postcode}",} 8.0
-http_client_requests_seconds_sum{clientName="api.postcodes.io",method="GET",status="200",uri="/postcodes/{postcode}",} 0.422829275
-http_client_requests_seconds_count{clientName="cat-fact.herokuapp.com",method="GET",status="200",uri="/facts/random",} 3.0
-http_client_requests_seconds_sum{clientName="cat-fact.herokuapp.com",method="GET",status="200",uri="/facts/random",} 0.620193611
-http_client_requests_seconds_count{clientName="api.chucknorris.io",method="GET",status="200",uri="/jokes/random",} 1.0
-http_client_requests_seconds_sum{clientName="api.chucknorris.io",method="GET",status="200",uri="/jokes/random",} 0.280383347
-# HELP http_client_requests_seconds_max Timer of RestTemplate operation
-# TYPE http_client_requests_seconds_max gauge
-http_client_requests_seconds_max{clientName="api.postcodes.io",method="GET",status="200",uri="/postcodes/{postcode}",} 0.0
-http_client_requests_seconds_max{clientName="cat-fact.herokuapp.com",method="GET",status="200",uri="/facts/random",} 0.0
-http_client_requests_seconds_max{clientName="api.chucknorris.io",method="GET",status="200",uri="/jokes/random",} 0.0
-```
 
 Note:
 - as long as you use the advice above everything should work smoothly
