@@ -1,8 +1,7 @@
 
-@snap[midpoint]
-## Monitoring Rest Template
-##### Using Spring 'properly'
-@snapend
+
+# Monitoring Rest Template
+#### Using Spring 'properly'
 
   
   @snap[south-east]
