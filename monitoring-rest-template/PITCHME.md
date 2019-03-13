@@ -73,7 +73,7 @@ Note:
 - use a separate RestTemplate for each API
 - spring can add listeners for instrumentation
 
----?image=images/monitoring/test-rest-template.png&size=contain
+---?image=images/monitoring/test-rest-template.png
 
 ## Testing
 
