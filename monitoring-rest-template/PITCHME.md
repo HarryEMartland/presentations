@@ -118,7 +118,7 @@ Note:
 ## Links
 
 @snap[center]
-Example App <http://bit.ly/rest-template-example>
-Slides <http://bit.ly/monitoring-rest-template-slides>
-Feedback <http://bit.ly/monitoring-rest-template-feedback>
+Example App <http://bit.ly/rt-example>
+Slides <http://bit.ly/rt-slides>
+Feedback <http://bit.ly/mon-rt-feedback>
 @snapend
