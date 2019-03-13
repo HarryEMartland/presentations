@@ -73,23 +73,9 @@ Note:
 - use a separate RestTemplate for each API
 - spring can add listeners for instrumentation
 
----
+---?image=images/monitoring/test-rest-template.png&size=contain
 
 ## Testing
-
-```java
-String url = "/postcodes/{postcode}";
-String postcode = "AT3ST";
-RestTemplate rt = mock(RestTemplate.class);
-Class<PostCodeResponse> postcodeClass = PostCodeResponse.class;
-
-when(rt.getForObject(url, postcodeClass, postcode))
-        .thenReturn(mockResponse);
-
-PostCodeResponse result = controller.getPostCode(postcode);
-verify(rt).getForObject(url, postcodeClass, postcode);
-assertEquals(mockResponse, result);
-```
 
 Note:
 - don't need to test base URL in repository
