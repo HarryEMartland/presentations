@@ -118,7 +118,7 @@ Note:
 ## Links
 
 @snap[center]
+Feedback <http://bit.ly/mon-rt-feedback>
 Example App <http://bit.ly/rt-example>
 Slides <http://bit.ly/rt-slides>
-Feedback <http://bit.ly/mon-rt-feedback>
 @snapend
