@@ -37,4 +37,4 @@ Note:
 
 ---
 
-@quote[It can be tempting to combine monitoring with other aspects of inspecting complex systems, such as detailed system profiling, single-process debugging, tracking details about exceptions or crashes, load testing, log collection and analysis, or traffic inspection. While most of these subjects share commonalities with basic monitoring, blending together too many results in overly complex and fragile systems.](landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+@quote[It can be tempting to combine monitoring with other aspects of inspecting systems, debugging, tracking exceptions or crashes, load testing, log collection, or traffic inspection. While most of these subjects share commonalities with basic monitoring, blending together too many results in overly complex and fragile systems.](landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
