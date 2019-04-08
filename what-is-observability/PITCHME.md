@@ -33,7 +33,7 @@ Note:
 
 ---
 
-@quote[“Observability”, according to [a twitter blog post], is a superset of “monitoring”, providing certain benefits and insights that “monitoring” tools come a cropper at.](medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c)
+@quote[“Observability”, according to {a twitter blog post}, is a superset of “monitoring”, providing certain benefits and insights that “monitoring” tools come a cropper at.](medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c)
 
 ---
 
