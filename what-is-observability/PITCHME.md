@@ -38,3 +38,7 @@ Note:
 ---
 
 @quote[It can be tempting to combine monitoring with other aspects of inspecting systems, debugging, tracking exceptions or crashes, load testing, log collection, or traffic inspection. While most of these subjects share commonalities with basic monitoring, blending together too many results in overly complex and fragile systems.](landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+
+---
+
+@quote[Let me start with what i think observability is not: Observability is not a dashboard, it's not an alert that tells you your CPU has increased. Observability isn't a single activity you do before or after a release, and it's not a tool that you use debug a particular fault. Observability is a feature of your system, its a culture you adopt. ](Emma Preston)
