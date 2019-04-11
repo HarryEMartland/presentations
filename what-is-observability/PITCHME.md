@@ -90,4 +90,5 @@ Note:
 - Culture
 - Measurement
 - Not tools
-- See inside apps
+- See inner workings
+- Used to find issues
