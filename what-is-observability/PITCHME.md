@@ -84,6 +84,21 @@ Note:
 - More thinks which are buzz words/tools which people say make your app observable
 ---
 
+@quote[Monitoring tackles what, practicing Observability exposes why Monitoring is a verb, something that we do; Observability is a skill, something that we will hopefully possess with time](Tom Riley)
+
+Note:
+- Why things are the way they are
+- Mindset skill
+- Not there yet
+---
+
+@quote[Its just a buzz word that we can use to build a better culture and toolset around monitoring in BookingGo](Tom Riley)
+
+Note:
+- If it gets people excited and moving they it is doing a good job
+- More about the culture
+---
+
 #### Sum Up
 
 - Not just monitoring
