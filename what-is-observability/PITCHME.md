@@ -76,7 +76,7 @@ Note:
 - If these are not monitoring I don't think they are part of observability too
 ---
 
-@quote[Let me start with what i think observability is not: Observability is not a dashboard, it's not an alert that tells you your CPU has increased. Observability isn't a single activity you do before or after a release, and it's not a tool that you use to debug a particular fault. Observability is a feature of your system, its a culture you adopt. ](Emma Preston)
+@quote[Let me start with what I think observability is not: Observability is not a dashboard, it's not an alert that tells you your CPU has increased. Observability isn't a single activity you do before or after a release, and it's not a tool that you use to debug a particular fault. Observability is a feature of your system, its a culture you adopt. ](Emma Preston)
 
 Note:
 - More about the culture
@@ -84,7 +84,7 @@ Note:
 - More thinks which are buzz words/tools which people say make your app observable
 ---
 
-@quote[Monitoring tackles what, practicing Observability exposes why Monitoring is a verb, something that we do; Observability is a skill, something that we will hopefully possess with time](Tom Riley)
+@quote[Monitoring tackles what, practicing Observability exposes why. Monitoring is a verb, something that we do; Observability is a skill, something that we will hopefully possess with time](Tom Riley)
 
 Note:
 - Why things are the way they are
